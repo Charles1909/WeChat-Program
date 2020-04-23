@@ -1,0 +1,18 @@
+<!--pages/registered/registered.wxml-->
+<view class='background'>
+  <view class='first'>
+    <input placeholder="用户名（默认为微信昵称）" class="inputs" placeholder-class="place" type="text" bindinput="usernameInput"></input>
+  </view>
+  <view class='second'>
+    <input placeholder="手机号码" class="inputs" placeholder-class="place" type="number" bindinput="phonenumberInput"></input>
+  </view>
+  <view class='third'>
+    <input placeholder="请输入密码" class="inputs" placeholder-class="place" type="password" bindinput="passwordInput"></input>
+  </view>
+  <view class='fourth'>
+    <input placeholder="请再次输入密码" class="inputs" placeholder-class="place" type="password" bindinput="passwordackInput"></input>
+  </view>
+  <view class="click" bindtap="registered">注册</view>
+  <view class="cha" >
+  <text class="no" bindtap="signin">已有账号，点我登录</text></view>
+</view>

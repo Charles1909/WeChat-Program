@@ -1,0 +1,25 @@
+<!--pages/leaderboard/leaderboard.wxml-->
+<template name="list">  <!-- 一个列表模版 -->
+  <view class="list">
+        <!-- list内容 -->
+        <block wx:for="{{listData}}" wx:key="key">
+          <view class="list-item">
+            <view class="avatar-wrapper">
+                <image class="avatar" wx:if="{{item.avatarUrl!=undefined}}"  src="{{item.avatarUrl}}"></image>
+                <!-- 没有头像就显示一个默认的
+                <image class="avatar" wx:if="{{item.avatar==undefined}}" src="../../static/image/man.jpg"></image> -->
+            </view>
+            <text class="title">{{item.username}}</text>
+            <text class="sub-title">积分：{{item.points}}</text>
+            <text class="sub-title">排名：{{index+1}}</text>
+            <image class="rank-img" wx:if="{{index==0}}" src="../../static/image/rank1.png"></image>
+            <image class="rank-img" wx:if="{{index==1}}" src="../../static/image/rank2.png"></image>
+            <image class="rank-img" wx:if="{{index==2}}" src="../../static/image/rank3.png"></image>
+          </view>
+        </block>
+  </view>
+</template>
+
+<view>
+  <template is="list" data="{{listData}}"></template>
+</view>

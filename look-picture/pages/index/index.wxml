@@ -1,0 +1,20 @@
+<!--teacher/pages/index.wxml-->
+
+<view class="container">
+  <view class="img-box">
+    <image class="img" src="/look-picture/pages/statics/{{word}}.png"></image>
+  </view>
+  <view class="word-box">
+    <text class="pinyin">{{pinyinText}}</text>
+    <view class="word">
+      <text class="txt">{{word}}</text>
+    </view>
+    <view class="video-box">
+      <image src="/static/icons/sound-filling.png" class="video-img" bindtap="playvideo"></image>
+    </view>
+  </view>
+</view>
+<view class="button">
+<button class="nextWord" bindtap="nextWord">下一个字</button>
+<button class="nextChapter" bindtap="nextChapter">下一关</button>
+</view>

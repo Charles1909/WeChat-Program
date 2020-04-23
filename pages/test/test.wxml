@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<view >
+  <button bindtap="query">查询</button>
+</view>

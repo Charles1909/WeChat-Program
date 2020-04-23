@@ -1,0 +1,108 @@
+/* pages/registered/registered.wxss */
+
+page {
+  left: 0rpx;
+  right: 0rpx;
+  background-color: lightgrey;
+}
+
+.first {
+  width: 90%;
+  height: 100rpx;
+  margin-top: 80rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.second {
+  width: 90%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.third {
+  width: 90%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.fourth {
+  width: 90%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.place {
+  font-size: 30rpx;
+  color: #ccc;
+}
+
+.inputs {
+  line-height: 100rpx;
+  font-size: 40rpx;
+  color: black;
+  margin: auto;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.click {
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: auto;
+  margin-top: 80rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #f76968;
+  text-align: center;
+  color: white;
+  font-size: 33rpx;
+}
+
+.cha {
+  width: 90%;
+  height: 50rpx;
+  margin: auto;
+  margin-top: 25rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.no {
+  left: 9px;
+  top: 449px;
+  width: 139px;
+  height: 31px;
+  line-height: 20px;
+  color: rgb(116, 102, 102);
+  font-size: 30rpx;
+  text-align: center;
+  font-family: PingFangSC-regular;
+}

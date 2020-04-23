@@ -1,0 +1,40 @@
+<!--pages/mine/mine.wxml-->
+<view class="header">
+    <view class="user_box" >
+        <view class="logo">
+          <image src="{{avatarUrl}}" ></image>
+        </view>
+        <text class='headname'>{{username}}</text>
+    </view>
+  <view class="nav">
+    <view class="item">
+      <view class='wallet'>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src='/static/icons/积分.png' class='iimg'></image>
+        <text>我的积分 : <text class="txt">{{points}}</text></text>
+      </view>
+    </view>
+    <view class="item">
+      <view class='wallet'>
+        <text class='icon-moneybag icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src='/static/icons/历史记录.png' class='iimg'></image>
+        <text>历史记录</text>
+      </view>
+    </view> 
+    <view class="item" >
+      <view class='wallet'>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src='/static/icons/账号安全.png' class='iimg'></image>
+        <text>账号安全</text>
+      </view>
+    </view>
+    <view class="item">
+      <view class='wallet'>
+      <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+      <image src='/static/icons/意见反馈.png' class='iimg'></image>
+      <text>意见反馈</text></view>
+    </view>
+  </view>
+</view>
+

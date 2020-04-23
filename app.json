@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/leaderboard/leaderboard",
+    "pages/test/test",
+    "pages/load/load",
+    "pages/login/login",
+    "pages/registered/registered",
+    "pages/mine/mine"
+  ],
+  "subpackages": [
+    {
+      "root": "strokes",
+      "pages": [
+        "pages/index/index"
+      ]
+    },
+    {
+      "root": "look-picture",
+      "pages": [
+        "pages/index/index"
+      ]
+    },
+    {
+      "root": "group-words",
+      "pages": [
+        "pages/index/index"
+      ]
+    },
+    {
+      "root": "listenning",
+      "pages": [
+        "pages/index/index"
+      ]
+    },
+    {
+      "root": "follow-up",
+      "pages": [
+        "pages/index/index"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1D7FC0",
+    "navigationBarTitleText": "幼儿识字",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#050505",
+    "selectedColor": "ffff33",
+    "backgroundColor": "#1e736d",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/icons/button1.png",
+        "selectedIconPath": "/static/icons/button2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "/static/icons/button3.png",
+        "selectedIconPath": "/static/icons/button4.png"
+      },
+      {
+        "pagePath": "pages/leaderboard/leaderboard",
+        "text": "积分排行",
+        "iconPath": "/static/icons/button5.png",
+        "selectedIconPath": "/static/icons/button6.png"
+      }
+    ]
+  }
+}

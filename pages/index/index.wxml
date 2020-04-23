@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="Module">
+    <text class="txt" bindtap="lookPicture">看图识字</text>
+  </view>
+  <view class="Module">
+    <text class="txt" bindtap="followUp">跟读汉字</text>
+  </view>
+  <view class="Module">
+    <text class="txt" bindtap="listenning">听音辨字</text>
+  </view>
+  <view class="Module">
+    <text class="txt" bindtap="strokes">笔画填写</text>
+  </view>
+  <view class="Module">
+    <text class="txt" bindtap="groupWords">组词填空</text>
+  </view>
+</view>

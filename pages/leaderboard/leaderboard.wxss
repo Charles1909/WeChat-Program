@@ -1,0 +1,73 @@
+/* pages/leaderboard/leaderboard.wxss */
+page {
+  padding-bottom: 50rpx;
+  background: -webkit-linear-gradient(top, rgb(38, 142, 212) 0%,#CCCCCC 100%);
+  background: -o-linear-gradient(top, rgb(38, 142, 212) 0%,#CCCCCC 100%);
+  background: -ms-linear-gradient(top, rgb(38, 142, 212) 0%,#CCCCCC 100%);
+  background: linear-gradient(to bottom, rgb(38, 142, 212) 0%,#99CCFF 100%);
+}
+
+view {
+    box-sizing: border-box;
+}
+
+.list-item {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: rgb(151, 191, 211);
+    box-shadow: 0 0 12px rgba(58, 51, 46, 0.26);
+    position: relative;
+    z-index: 0;
+    padding: 15px 10px 21px 111px;
+    min-height: 116px;
+}
+
+.list-item .avatar-wrapper {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    width: 89px;
+    height: 89px;
+    overflow: hidden;
+    border: 1px solid #BAB8B3;
+    padding: 7px;
+    display: block;
+    border-radius: 50%;
+}
+
+.list-item .avatar{
+    display: block;
+    border-radius: 50%;
+    width: 73px;
+    height: 73px;
+}
+
+.list-item .title {
+    margin-top: 5px;
+    font-size: 50rpx;
+    font-weight: 600;
+    color: #5c5146;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+}
+
+.list-item .sub-title{
+    display: block;
+    color: #6267a1;
+    margin-top: 15rpx;
+    padding: 0;
+    border: 0;
+    font-size: 35rpx;
+}
+
+.list-item .rank-img{
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 30px;
+    width: 28px;
+    height: 66px;
+    overflow: hidden;
+    padding: 7px;
+}

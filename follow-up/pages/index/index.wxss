@@ -1,0 +1,139 @@
+/* teacher/pages/index.wxss */
+
+page {
+  padding-bottom: 50rpx;
+  background: -webkit-linear-gradient(top, rgb(38, 142, 212) 0%, #ccc 100%);
+  background: -o-linear-gradient(top, rgb(38, 142, 212) 0%, #ccc 100%);
+  background: -ms-linear-gradient(top, rgb(38, 142, 212) 0%, #ccc 100%);
+  background: linear-gradient(to bottom, rgb(38, 142, 212) 0%, #9cf 100%);
+}
+
+.container {
+  width: 90%;
+  height: 350rpx;
+  margin-top: 40rpx;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img-box {
+  width: 250rpx;
+  height: 250rpx;
+  margin-right: 50rpx;
+  margin-left: 40rpx;
+}
+
+.word-box {
+  width: 60%;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-box {
+  width: 100%;
+  height: 70rpx;
+}
+
+.video-img {
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 80%;
+}
+
+.pinyin {
+  width: 250rpx;
+  margin-left: 60rpx;
+  font-size: 60rpx;
+  text-align: center;
+  color: rgb(207, 19, 50);
+  opacity: 0.6;
+}
+
+.word {
+  width: 250rpx;
+  height: 250rpx;
+  margin-left: 60rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-image: url("https://6368-charles-kji02-1301859593.tcb.qcloud.la/word-images/%E7%B1%B3%E5%AD%90%E6%A0%BC.png?sign=bb6089e96365ecd2233608d7796b62f2&t=1587439661");
+}
+
+.txt {
+  height: 250rpx;
+  width: 250rpx;
+  margin-left: 35rpx;
+  font-family: STKaiti;
+  font-weight: bold;
+  font-size: 180rpx;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+
+.nextWord {
+  width: 60%;
+  height: 80rpx;
+  background-color: rgb(74, 214, 39);
+  border-radius: 20rpx;
+  align-content: center;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 25rpx;
+  color: white;
+  font-size: 37rpx;
+  font-weight: bold;
+}
+
+.nextChapter {
+  width: 60%;
+  height: 80rpx;
+  background-color: #4ad627;
+  border-radius: 20rpx;
+  align-content: center;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 25rpx;
+  color: white;
+  font-size: 37rpx;
+  font-weight: bold;
+}
+
+.recording {
+  width: 60%;
+  height: 70rpx;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+.record {
+  width: 300rpx;
+  height: 70rpx;
+  background-color: #4ad627;
+  border-radius: 20rpx;
+  align-content: center;
+  text-align: center;
+  color:azure;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.play {
+  width: 120rpx;
+  height: 70rpx;
+  background-color: #4ad627;
+  border-radius: 20rpx;
+  align-content: center;
+  text-align: center;
+  color: azure;
+  font-size: 30rpx;
+  font-weight: bold;
+}

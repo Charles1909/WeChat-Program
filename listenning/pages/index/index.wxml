@@ -1,0 +1,36 @@
+<!--listenning/pages/index/index.wxml-->
+<view class="top-box">
+  <view class="content">
+    <!--为选择错误时-->
+    <block wx:if="{{select}}">
+      <view class="four-images">
+        <view class="img-one" bindtap="img-one">
+          <text class="txt">{{wordone}}</text>
+        </view>
+        <view class="img-two" bindtap="img-two">
+          <text class="txt">{{wordtwo}}</text>
+        </view>
+        <view class="img-three" bindtap="img-three">
+          <text class="txt">{{wordthree}}</text>
+        </view>
+        <view class="img-four" bindtap="img-four">
+          <text class="txt">{{wordfour}}</text>
+        </view>
+      </view>
+    </block>
+    <!--选择正确时-->
+    <block wx:if="{{got}}">
+      <view class="detail-box">
+        
+      </view>
+      <view class="detail">{{detail}}</view>
+    </block>
+  </view>
+</view>
+<view class="voice-box">
+  <image class="voice" bindtap="playVoice" src="/static/icons/声音.png"></image>
+</view>
+<view class="button-box">
+  <button class="last" bindtap="lastWord">上一个字</button>
+  <button class="next" bindtap="nextWord">下一个字</button>
+</view>

@@ -1,0 +1,47 @@
+/* pages/load/load.wxss */
+
+page {
+  padding-bottom: 50rpx;
+  background: -webkit-linear-gradient(top, rgb(38, 142, 212) 0%, #ccc 100%);
+  background: -o-linear-gradient(top, rgb(38, 142, 212) 0%, #ccc 100%);
+  background: -ms-linear-gradient(top, rgb(38, 142, 212) 0%, #ccc 100%);
+  background: linear-gradient(to bottom, rgb(38, 142, 212) 0%, #9cf 100%);
+}
+
+.loadmai {
+  width: 80%;
+  height: 300rpx;
+  margin-top: 350rpx;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.but {
+  width: 70%;
+  height: 80rpx;
+  background-color: rgb(74, 214, 39);
+  border-radius: 20rpx;
+  align-content: center;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  font-size: 37rpx;
+  font-weight: bold;
+}
+
+.fenge {
+  color: #ddc688;
+  font-size: 40rpx;
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+.txt {
+  width: 92%;
+  color: #e0c385;
+  font-size: 30rpx;
+  font-weight: 10rpx;
+  margin-top: 15rpx;
+  margin: auto;
+}

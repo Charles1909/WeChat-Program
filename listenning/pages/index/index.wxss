@@ -1,0 +1,133 @@
+/* listenning/pages/index/index.wxss */
+
+page {
+  padding-bottom: 50rpx;
+  background: -webkit-linear-gradient(top, rgb(38, 142, 212) 0%, #ccc 100%);
+  background: -o-linear-gradient(top, rgb(38, 142, 212) 0%, #ccc 100%);
+  background: -ms-linear-gradient(top, rgb(38, 142, 212) 0%, #ccc 100%);
+  background: linear-gradient(to bottom, rgb(38, 142, 212) 0%, #9cf 100%);
+}
+
+.top-box {
+  width: 700rpx;
+  height: 700rpx;
+  background-color: rgb(235, 121, 14);
+  border-radius: 20rpx;
+  margin: 25rpx;
+}
+
+.content {
+  width: 670rpx;
+  height: 670rpx;
+  position: absolute;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+  border-radius: 20rpx;
+  background-color: rgba(219, 238, 208, 0.959);
+}
+
+.four-images {
+  width: 610rpx;
+  height: 610rpx;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-one {
+  width: 290rpx;
+  height: 290rpx;
+  margin-right: 15rpx;
+  margin-bottom: 15rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-image: url("https://6368-charles-kji02-1301859593.tcb.qcloud.la/image/background.png?sign=d5ff626c61e2d026f5b4f4904b376984&t=1587629796");
+}
+
+.img-two {
+  width: 290rpx;
+  height: 290rpx;
+  margin-left: 15rpx;
+  margin-bottom: 15rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-image: url("https://6368-charles-kji02-1301859593.tcb.qcloud.la/image/background.png?sign=d5ff626c61e2d026f5b4f4904b376984&t=1587629796");
+}
+
+.img-three {
+  width: 290rpx;
+  height: 290rpx;
+  margin-right: 15rpx;
+  margin-top: 15rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-image: url("https://6368-charles-kji02-1301859593.tcb.qcloud.la/image/background.png?sign=d5ff626c61e2d026f5b4f4904b376984&t=1587629796");
+}
+
+.img-four {
+  width: 290rpx;
+  height: 290rpx;
+  margin-left: 15rpx;
+  margin-top: 15rpx;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-image: url("https://6368-charles-kji02-1301859593.tcb.qcloud.la/image/background.png?sign=d5ff626c61e2d026f5b4f4904b376984&t=1587629796");
+}
+
+.txt {
+  margin-left: 35rpx;
+  font-size: 220rpx;
+  font-family: STKaiti;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.detail-box {
+  margin: 25rpx;
+  display: felx;
+  flex-direction: row;
+}
+
+
+
+.voice-box {
+  width: 100%;
+  height: 70rpx;
+  margin: 10rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.voice {
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 75%;
+}
+
+.button-box {
+  width: 100%;
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.last {
+  width: 250rpx;
+  margin-left: 100rpx;
+  margin-right: 25rpx;
+  background-color: rgb(52, 221, 46);
+  color: white;
+}
+
+.next {
+  width: 250rpx;
+  margin-left: 25rpx;
+  margin-right: 100rpx;
+  background-color: rgb(52, 221, 46);
+  color: white;
+}
